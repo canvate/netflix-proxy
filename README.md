@@ -15,11 +15,7 @@ find a Debian or Ubuntu box with root on a clean public IP and run:
 
 重置密码的命令
 
-pip install passlib[bcrypt]
-
-cd /root/netflix-proxy/auth
-
- ./admin-reset.sh
+pip install passlib[bcrypt]\ && cd /root/netflix-proxy/auth && ./admin-reset.sh
 
 
 See the [**Wiki**](https://github.com/ab77/netflix-proxy/wiki) page(s) for some common troubleshooting ideas.
