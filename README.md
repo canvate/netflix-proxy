@@ -2,6 +2,8 @@
 
 > `TL;DR`
 
+适用 Ubuntu 18
+
 find a Debian or Ubuntu box with root on a clean public IP and run:
 
     apt-get update\
